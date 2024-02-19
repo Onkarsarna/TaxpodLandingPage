@@ -1,0 +1,182 @@
+Reset CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #0047AB;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ #hero {
+    background: url('https://img.freepik.com/free-photo/closeup-economist-using-calculator-while-going-through-bills-taxes-office_637285-3156.jpg?w=996&t=st=1708263909~exp=1708264509~hmac=ba7654b5a23d27c049ac3905d203977455715517088ea9f56e1093668ce0d08c') center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+} 
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #0047AB;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #002b6b;
+}
+
+#services {
+    padding: 100px 0;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#about {
+    background: #f4f4f4;
+    padding: 100px 0;
+    text-align: center;
+}
+footer {
+    background: #0047AB;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 20px; /* Reduce the gap between contact section and footer */
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#contact {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.contact-links {
+    margin-bottom: 20px;
+}
+
+.contact-link {
+    display: block;
+    color: #0047AB;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+#about {
+    background: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.values {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.values h3 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+.values ul {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.values ul li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
